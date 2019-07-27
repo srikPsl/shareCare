@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.honeywell.model.MapUserGroupMessage;
+import com.honeywell.demo.entity.MapUserGroupMessage;
 import com.honeywell.service.ShareCareService;
 
 @RestController

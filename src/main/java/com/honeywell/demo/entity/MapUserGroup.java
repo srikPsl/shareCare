@@ -1,28 +1,34 @@
 package com.honeywell.demo.entity;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.ManyToMany;
+import javax.persistence.ManyToOne;
+import javax.persistence.Table;
+
+import lombok.Data;
+
+@Data
+@Entity
+@Table(name = "map_user_group")
+
 public class MapUserGroup {
 
+	@Id
+	@GeneratedValue
+	@Column(name = "mugid")
 	private Integer mugId;
+	
+	
+	@Column(name = "group")
+	@ManyToMany
 	private Group group;
+	
+	@Column(name = "user")
+	@ManyToMany
 	private User user;
-	public Integer getMugId() {
-		return mugId;
-	}
-	public void setMugId(Integer mugId) {
-		this.mugId = mugId;
-	}
-	public Group getGroup() {
-		return group;
-	}
-	public void setGroup(Group group) {
-		this.group = group;
-	}
-	public User getUser() {
-		return user;
-	}
-	public void setUser(User user) {
-		this.user = user;
-	}
 	
 	
 }
