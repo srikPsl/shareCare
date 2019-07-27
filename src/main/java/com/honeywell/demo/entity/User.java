@@ -23,9 +23,5 @@ public class User {
 	
 	@Column(name = "locality")
 	private String locality;
-	
-	
-
-	
 
 }
