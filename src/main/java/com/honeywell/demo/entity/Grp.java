@@ -9,8 +9,8 @@ import lombok.Data;
 
 @Data
 @Entity
-@Table(name = "group")
-public class Group {
+@Table(name = "grp",schema="app")
+public class Grp {
 
 	@Id
 	@GeneratedValue
