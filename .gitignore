@@ -1,4 +1,13 @@
+<<<<<<< HEAD
 /target/
 .classpath
 .project
 .settings/**
+=======
+idea/*
+idea/*.*
+.idea/*
+.idea/**
+demo.iml
+target/**
+>>>>>>> cabe127dba37110150171aabdd10dc548e3d8a90
