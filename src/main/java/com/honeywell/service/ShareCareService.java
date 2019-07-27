@@ -3,7 +3,7 @@ package com.honeywell.service;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.honeywell.model.MapUserGroupMessage;
+import com.honeywell.demo.entity.MapUserGroupMessage;
 
 public class ShareCareService {
 	 public boolean createMessage(MapUserGroupMessage msg){
